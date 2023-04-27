@@ -1,0 +1,53 @@
+body{
+       
+    background-image:url('./Images/book.jpeg');
+    width:620px;
+    height:500px;
+}
+a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    background-color: lightblue;
+    width: 250px;
+    height: 25px;
+    margin:auto;
+    margin-top: 20px ;
+    font-size: 20pt;
+}
+label{color:white;
+font-size:18px;}
+p{
+    color:white;
+    text-align:left;
+}
+.outerbx{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 550px;
+    height: 300px;
+    border:10px solid;
+    border-top-color:lightgrey;
+    border-left-color:lightgrey;
+    border-right-color:white;
+    border-bottom-color:white;
+    background-color:grey;
+    padding:40px
+}
+.innerbx{
+    margin:40px;
+    border:3px solid;
+    border-top-color:white;
+    border-left-color:white;
+    border-right-color:lightgrey;
+    border-bottom-color:lightgrey;
+    padding:5px;
+    text-align: center;
+    
+}
+p{
+    font-size:18pt;
+    color:white;
+}
